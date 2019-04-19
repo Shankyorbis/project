@@ -5,8 +5,7 @@ import csv
 
 #imported the modules I will require in the project
 
-#http://en.wikipedia.org/wiki/Member_states_of_the_United_Nations - The wikipedia page I'm scraping
-
+#give the url u want to scrape
 root_url = getInput()
 page_url = root_url + '/wiki/Member_states_of_the_United_Nations' 
 
