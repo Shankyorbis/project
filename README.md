@@ -2,9 +2,9 @@
 To run this project you have to open the extensions menu of your Google Chrome browser 
 and then Click on the load unpacked option on the top left corner of the screen.
 Now go to the directory of the folder containing this project and select the folder.
-You are now good to go to  use this project press  
+You are now good to go 
 
-CTRL+SHIFT+I 
+To use this project press CTRL+SHIFT+I 
 
 OR 
 
