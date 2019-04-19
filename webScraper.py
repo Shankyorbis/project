@@ -1,6 +1,7 @@
 import requests
 import bs4
 import re
+import csv
 
 #imported the modules I will require in the project
 
