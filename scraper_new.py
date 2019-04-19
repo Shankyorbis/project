@@ -1,12 +1,13 @@
 import requests  #requests module is used to fetch the HTML code from a webpage
 import bs4 #beautiful soup is a module used to parse HTML code using its various functions
 import re  #re is a module used to implement various functionalities of regualar expressions
-
+import csv #convert file to CSV format in Excell sheet format
+ 
 #imported the modules I will require in the project
 
 #http://pyvideo.org/category/50/pycon-us-2014 -Is the webpage i'm parsing in this script
 
-root_url = 'http://pyvideo.org'
+root_url = getInput()
 page_url = root_url + '/category/50/pycon-us-2014'
 
 links=[]
