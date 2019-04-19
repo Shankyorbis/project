@@ -1,11 +1,12 @@
 import requests
 import bs4
 import re
+
 #imported the modules I will require in the project
 
 #http://en.wikipedia.org/wiki/Member_states_of_the_United_Nations - The wikipedia page I'm scraping
 
-root_url = 'http://en.wikipedia.org'
+root_url = getInput()
 page_url = root_url + '/wiki/Member_states_of_the_United_Nations' 
 
 r = requests.get(page_url) #returns the HTML of the page, can be done through urlopen as well
