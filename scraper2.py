@@ -1,9 +1,10 @@
 import requests
 import bs4
 import re
+import csv
 
+root_url = getInput() 
 
-root_url = 'http://pyvideo.org'
 index_url = root_url + '/category/50/pycon-us-2014'
 links=[]
 links_clean=[]
