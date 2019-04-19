@@ -10,7 +10,9 @@ Now here you will observe a New option named as a Web scraper on the Developer m
 Create a new site map to Build a Backbone of the Project
 and all elements according to your requirements. 
   
-Begin Scraping the way you want....Prerequisites....--->                                          
+Begin Scraping the way you want....
+                                                                                                                                
+Prerequisites....--->                                          
 
 Python 3,
 BeautifulSoup->bs4,
