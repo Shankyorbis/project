@@ -1,7 +1,7 @@
 import requests
 import bs4
-
-url = 'http://delhi-ncr.yellowpages.co.in/Restaurant' 
+import csv
+url = getInput() 
 
 r = requests.get(url) #returns the HTML of the page, can be done through urlopen as well
 
